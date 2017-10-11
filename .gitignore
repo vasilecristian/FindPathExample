@@ -109,3 +109,14 @@
 **.[wW][vV]
 
 **.[vV][cC][xX][pP][rR][oO][jJ].[uU][sS][eE][rR]
+*.exe
+*.exp
+*.ilk
+*.lib
+*.pdb
+.suo
+*.db
+*.log
+*.tlog
+*.lastbuildstate
+*.obj
