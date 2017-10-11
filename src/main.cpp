@@ -1,4 +1,4 @@
-#include "sample1.h"
+#include "main.h"
 
 // Declare our app instance
 Sample1 app;
