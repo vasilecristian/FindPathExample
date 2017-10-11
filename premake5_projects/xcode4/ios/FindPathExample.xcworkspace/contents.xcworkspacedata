@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+	version = "1.0">
+	<FileRef
+		location = "group:../../../deps/teckel/prj/xcode4/ios/teckel.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/base64/premake5_projects/xcode4/ios/base64.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/bullet2/premake5_projects/xcode4/ios/bullet2.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/curl/premake5_projects/xcode4/ios/curl.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/freetype/prj/xcode4/ios/freetype.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/glew/premake5_projects/xcode4/ios/glew.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/libjson/premake5_projects/xcode4/ios/libjson.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/libpng/premake5_projects/xcode4/ios/libpng.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/lua/premake5_projects/xcode4/ios/lua.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/ogg/premake5_projects/xcode4/ios/ogg.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/openal/premake5_projects/xcode4/ios/openal.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/theora/premake5_projects/xcode4/ios/theora.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/tinyxml2/prj/xcode4/ios/tinyxml2.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/vorbis/premake5_projects/xcode4/ios/vorbis.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/zlib/premake5_projects/xcode4/ios/zlib.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/openssl/premake5_projects/xcode4/ios/openssl.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/openssl/premake5_projects/xcode4/ios/crypto.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:FindPathExample.xcodeproj">
+	</FileRef>
+</Workspace>

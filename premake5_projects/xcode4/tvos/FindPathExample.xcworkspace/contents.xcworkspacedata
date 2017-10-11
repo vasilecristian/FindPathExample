@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+	version = "1.0">
+	<FileRef
+		location = "group:../../../deps/teckel/prj/xcode4/tvos/teckel.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/base64/premake5_projects/xcode4/tvos/base64.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/bullet2/premake5_projects/xcode4/tvos/bullet2.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/curl/premake5_projects/xcode4/tvos/curl.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/freetype/prj/xcode4/tvos/freetype.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/glew/premake5_projects/xcode4/tvos/glew.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/libjson/premake5_projects/xcode4/tvos/libjson.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/libpng/premake5_projects/xcode4/tvos/libpng.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/lua/premake5_projects/xcode4/tvos/lua.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/ogg/premake5_projects/xcode4/tvos/ogg.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/openal/premake5_projects/xcode4/tvos/openal.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/theora/premake5_projects/xcode4/tvos/theora.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/tinyxml2/prj/xcode4/tvos/tinyxml2.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/vorbis/premake5_projects/xcode4/tvos/vorbis.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/zlib/premake5_projects/xcode4/tvos/zlib.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/openssl/premake5_projects/xcode4/tvos/openssl.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/openssl/premake5_projects/xcode4/tvos/crypto.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:FindPathExample.xcodeproj">
+	</FileRef>
+</Workspace>

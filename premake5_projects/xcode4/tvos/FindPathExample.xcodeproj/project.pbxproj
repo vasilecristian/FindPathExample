@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AA10C3FA71B96DA3182703 /* libtheora_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 955DBE6BD1B62FD50FF7CCAB /* libtheora_d.a */; };
+		0BE635085CCA157247C7A348 /* libbullet2_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D002D07258F3FAEAFA6910 /* libbullet2_d.a */; };
+		38151BF92DDCC4A3D6833239 /* libvorbis_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700DD6173594ECBB19AEBA1 /* libvorbis_d.a */; };
+		4BF36B51884BDCBBC68D7991 /* libogg_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB82B5B93AD117E36F31BBF9 /* libogg_d.a */; };
+		665C427CA1E533A61A86A8BC /* libcurl_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BBBAC4241DE4AED6781904 /* libcurl_d.a */; };
+		6FFA63278B44DC517209C967 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6B475B35D17EA9DD6A9B3F3 /* main.cpp */; };
+		8649880DD72D6877C22AF64D /* liblibjson_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0253F5468B451FBF2CBA35 /* liblibjson_d.a */; };
+		8A5CBAAE8024635828CAD0EE /* liblibpng_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5049436115D05A04F9EA276 /* liblibpng_d.a */; };
+		8AB5532F521BF1D95891296F /* libfreetype_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 455691B79E7139215EE65FF7 /* libfreetype_d.a */; };
+		9260BACDCDE9ABF7468B210D /* libzlib_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18398B5EBE5C29F9E3FF6F5 /* libzlib_d.a */; };
+		A3D283E0E02AF54A1E6C9220 /* liblua_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4C8A8A3132AD2D773CEE8 /* liblua_d.a */; };
+		AD37A1D8749E40827B137818 /* libtinyxml2_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1C0D00E836B46AA8ABDB40 /* libtinyxml2_d.a */; };
+		AF3EE5B7A5068E614DACFBF7 /* libopenal_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EECEA7DF2B2719496968B61F /* libopenal_d.a */; };
+		C0AC6C27FC355D5174D6D267 /* libglew_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6166B04F6BC8DA391E230E8F /* libglew_d.a */; };
+		D4AF3609CA76DEB3731D4C49 /* libbase64_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED33F171298C62DB67CDFFB1 /* libbase64_d.a */; };
+		DB1FA7CB31C70EF52F67CE0B /* libteckel_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F4D7D39128B7BDB056F613 /* libteckel_d.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17CC3AEB48133455226B492B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6C4C7508C4BDDF47065AB5 /* glew.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 66A0F1522FF048FCEB7E6792;
+			remoteInfo = glew;
+		};
+		1C7950AD37C3C9D71E88B6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD65459BF32CEE459BD35BDB /* libjson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21822C54CC835BBE9616FA94;
+			remoteInfo = libjson;
+		};
+		2F4335245F8A2E8E39E24364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6C4C7508C4BDDF47065AB5 /* glew.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C28089F89A0E94624A683838;
+			remoteInfo = glew;
+		};
+		30CA77E0B564164A74C6A620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2307233D84E032278748A17D /* freetype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5DD056701042211FD0B9BA7;
+			remoteInfo = freetype;
+		};
+		33F04AE64F3AC41035FFB126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD65459BF32CEE459BD35BDB /* libjson.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C56CBA8F4956E466D972FA;
+			remoteInfo = libjson;
+		};
+		3825405B96103C4566C0DE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF98E05FDBFE6EFFEF54C45 /* openal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F9DFCC2BA21E6EC91B20302;
+			remoteInfo = openal;
+		};
+		3F9D5E365AE7D76041ACC476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6B8B6128E6160BB34CEF6 /* bullet2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3691E57DE19314E7AB26B3BD;
+			remoteInfo = bullet2;
+		};
+		48417219CCDB10838C3DA059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2307233D84E032278748A17D /* freetype.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CFEF6D52D11ED71C64BDAD;
+			remoteInfo = freetype;
+		};
+		4F9C3A94AD87367E7E37D8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF98E05FDBFE6EFFEF54C45 /* openal.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E151E768D48C345201DE25A8;
+			remoteInfo = openal;
+		};
+		5714586F725ED1995923BEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6B8B6128E6160BB34CEF6 /* bullet2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ABE24C3E5420EEDBCD22B03;
+			remoteInfo = bullet2;
+		};
+		5A8EC121B879BD0B892A5F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F07D17E3B6D601E4EC3B57 /* base64.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E889D48890C8772609CA388;
+			remoteInfo = base64;
+		};
+		7205BB5ACFF0B744A0A1599A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F07D17E3B6D601E4EC3B57 /* base64.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A9878F2E9CC1DC18CA13CD6E;
+			remoteInfo = base64;
+		};
+		7D23BD5FDB0EB949ABBF5B9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8FDD910156367B028B9BD1 /* theora.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4A0B4462F249E7006B4BA86;
+			remoteInfo = theora;
+		};
+		8B394DD4E92449BEB9D4EC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE7F8059379A27C3F80F4E99 /* teckel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA7D4BDB15013605EC91521B;
+			remoteInfo = teckel;
+		};
+		949AB798F285B382C33655D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8FDD910156367B028B9BD1 /* theora.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D559BE6CC8940B56F5E5FCAC;
+			remoteInfo = theora;
+		};
+		991BC6831DB564EDDD17F4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499E1946AB772830ADDF9786 /* tinyxml2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E1D4BEA79446894754BE22A;
+			remoteInfo = tinyxml2;
+		};
+		9D5DDC72CDA4D5DCA7FCEAB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD712AA682F8414A67120EA /* curl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C0EB139555E08E310EC2779;
+			remoteInfo = curl;
+		};
+		9EF63458FCE13042CD91D298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9AFF9C7D6158867E96BDDC /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7EB95CDFD93D4709B0CD631F;
+			remoteInfo = libpng;
+		};
+		A2B0480D009B43F7D14BE64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE7F8059379A27C3F80F4E99 /* teckel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B5873761A8C1844BD61375A1;
+			remoteInfo = teckel;
+		};
+		AA1BC24DDA62BBB7B4BAD08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB1F95B3A0A6AC5784C079B /* zlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E69561F4AFE4B99E6B72D834;
+			remoteInfo = zlib;
+		};
+		B092C0BC352C5F26F48EEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499E1946AB772830ADDF9786 /* tinyxml2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 180FF190C31120FA8CA4BFD0;
+			remoteInfo = tinyxml2;
+		};
+		B4D4D6ABE51BD015BF73E4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD712AA682F8414A67120EA /* curl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B268FFD9407369899A173F;
+			remoteInfo = curl;
+		};
+		B66D2E9114582A7BE508CCD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9AFF9C7D6158867E96BDDC /* libpng.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E24337E5D57D84CF02CF7625;
+			remoteInfo = libpng;
+		};
+		C192BC86F1D9B5F0CC31CAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB1F95B3A0A6AC5784C079B /* zlib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 23786E5AFB0678C4AB601C9A;
+			remoteInfo = zlib;
+		};
+		C9C2147ED2FA88A8D9985ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1C948E8D3A6E3876074ACE /* lua.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07E38C5780C432F2865E705;
+			remoteInfo = lua;
+		};
+		D59B08713386045B0436A6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E689D07112EF5F112645B47 /* vorbis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E98D5698441140C21BA15CD8;
+			remoteInfo = vorbis;
+		};
+		E1390EB7EA7182E1F10F54F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1C948E8D3A6E3876074ACE /* lua.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E3492F0B4EAA943599D4154B;
+			remoteInfo = lua;
+		};
+		E17ED819EAB74C43F1551E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72161E5F1033F809F900D49F /* ogg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A00DF40718EE9AA21E88D80;
+			remoteInfo = ogg;
+		};
+		ED1202AA4AFCFE941BADA0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E689D07112EF5F112645B47 /* vorbis.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AF325E7EA26CAB68CFBE9CBE;
+			remoteInfo = vorbis;
+		};
+		F8F5D252022E467C08CC1892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72161E5F1033F809F900D49F /* ogg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9583722600E4D7504C0E5866;
+			remoteInfo = ogg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9AFF9C7D6158867E96BDDC /* liblibpng_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "libpng.xcodeproj"; path = ../../../deps/libpng/premake5_projects/xcode4/tvos/libpng.xcodeproj; sourceTree = SOURCE_ROOT; };
+		12EE248C9787C2F656EA52CC /* FindPathExample */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FindPathExample; path = FindPathExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC6B8B6128E6160BB34CEF6 /* libbullet2_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "bullet2.xcodeproj"; path = ../../../deps/bullet2/premake5_projects/xcode4/tvos/bullet2.xcodeproj; sourceTree = SOURCE_ROOT; };
+		2307233D84E032278748A17D /* libfreetype_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "freetype.xcodeproj"; path = ../../../deps/freetype/prj/xcode4/tvos/freetype.xcodeproj; sourceTree = SOURCE_ROOT; };
+		2BD712AA682F8414A67120EA /* libcurl_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "curl.xcodeproj"; path = ../../../deps/curl/premake5_projects/xcode4/tvos/curl.xcodeproj; sourceTree = SOURCE_ROOT; };
+		499E1946AB772830ADDF9786 /* libtinyxml2_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "tinyxml2.xcodeproj"; path = ../../../deps/tinyxml2/prj/xcode4/tvos/tinyxml2.xcodeproj; sourceTree = SOURCE_ROOT; };
+		70F07D17E3B6D601E4EC3B57 /* libbase64_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "base64.xcodeproj"; path = ../../../deps/base64/premake5_projects/xcode4/tvos/base64.xcodeproj; sourceTree = SOURCE_ROOT; };
+		72161E5F1033F809F900D49F /* libogg_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ogg.xcodeproj"; path = ../../../deps/ogg/premake5_projects/xcode4/tvos/ogg.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8AF98E05FDBFE6EFFEF54C45 /* libopenal_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "openal.xcodeproj"; path = ../../../deps/openal/premake5_projects/xcode4/tvos/openal.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8E8FDD910156367B028B9BD1 /* libtheora_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "theora.xcodeproj"; path = ../../../deps/theora/premake5_projects/xcode4/tvos/theora.xcodeproj; sourceTree = SOURCE_ROOT; };
+		97D8F77D65828767CC6915BD /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../src/main.h; sourceTree = "<group>"; };
+		9E689D07112EF5F112645B47 /* libvorbis_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "vorbis.xcodeproj"; path = ../../../deps/vorbis/premake5_projects/xcode4/tvos/vorbis.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B6B475B35D17EA9DD6A9B3F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../src/main.cpp; sourceTree = "<group>"; };
+		CC6C4C7508C4BDDF47065AB5 /* libglew_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "glew.xcodeproj"; path = ../../../deps/glew/premake5_projects/xcode4/tvos/glew.xcodeproj; sourceTree = SOURCE_ROOT; };
+		DE7F8059379A27C3F80F4E99 /* libteckel_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "teckel.xcodeproj"; path = ../../../deps/teckel/prj/xcode4/tvos/teckel.xcodeproj; sourceTree = SOURCE_ROOT; };
+		EEDF7FFF526759E967C9DE3F /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = ../../../src/README.txt; sourceTree = "<group>"; };
+		EF1C948E8D3A6E3876074ACE /* liblua_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lua.xcodeproj"; path = ../../../deps/lua/premake5_projects/xcode4/tvos/lua.xcodeproj; sourceTree = SOURCE_ROOT; };
+		FD65459BF32CEE459BD35BDB /* liblibjson_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "libjson.xcodeproj"; path = ../../../deps/libjson/premake5_projects/xcode4/tvos/libjson.xcodeproj; sourceTree = SOURCE_ROOT; };
+		FDB1F95B3A0A6AC5784C079B /* libzlib_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "zlib.xcodeproj"; path = ../../../deps/zlib/premake5_projects/xcode4/tvos/zlib.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB25EB0D58A4BF77EDF7D94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1FA7CB31C70EF52F67CE0B /* libteckel_d.a in Frameworks */,
+				D4AF3609CA76DEB3731D4C49 /* libbase64_d.a in Frameworks */,
+				0BE635085CCA157247C7A348 /* libbullet2_d.a in Frameworks */,
+				665C427CA1E533A61A86A8BC /* libcurl_d.a in Frameworks */,
+				8AB5532F521BF1D95891296F /* libfreetype_d.a in Frameworks */,
+				C0AC6C27FC355D5174D6D267 /* libglew_d.a in Frameworks */,
+				8649880DD72D6877C22AF64D /* liblibjson_d.a in Frameworks */,
+				8A5CBAAE8024635828CAD0EE /* liblibpng_d.a in Frameworks */,
+				A3D283E0E02AF54A1E6C9220 /* liblua_d.a in Frameworks */,
+				4BF36B51884BDCBBC68D7991 /* libogg_d.a in Frameworks */,
+				AF3EE5B7A5068E614DACFBF7 /* libopenal_d.a in Frameworks */,
+				04AA10C3FA71B96DA3182703 /* libtheora_d.a in Frameworks */,
+				AD37A1D8749E40827B137818 /* libtinyxml2_d.a in Frameworks */,
+				38151BF92DDCC4A3D6833239 /* libvorbis_d.a in Frameworks */,
+				9260BACDCDE9ABF7468B210D /* libzlib_d.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0074A5FF399ACCA95EF57C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955DBE6BD1B62FD50FF7CCAB /* libtheora_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372F7BD47055A27E95B05214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F4D7D39128B7BDB056F613 /* libteckel_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581EEAC54FB7EDAF2070E905 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F8059379A27C3F80F4E99 /* teckel.xcodeproj */,
+				70F07D17E3B6D601E4EC3B57 /* base64.xcodeproj */,
+				1CC6B8B6128E6160BB34CEF6 /* bullet2.xcodeproj */,
+				2BD712AA682F8414A67120EA /* curl.xcodeproj */,
+				2307233D84E032278748A17D /* freetype.xcodeproj */,
+				CC6C4C7508C4BDDF47065AB5 /* glew.xcodeproj */,
+				FD65459BF32CEE459BD35BDB /* libjson.xcodeproj */,
+				0A9AFF9C7D6158867E96BDDC /* libpng.xcodeproj */,
+				EF1C948E8D3A6E3876074ACE /* lua.xcodeproj */,
+				72161E5F1033F809F900D49F /* ogg.xcodeproj */,
+				8AF98E05FDBFE6EFFEF54C45 /* openal.xcodeproj */,
+				8E8FDD910156367B028B9BD1 /* theora.xcodeproj */,
+				499E1946AB772830ADDF9786 /* tinyxml2.xcodeproj */,
+				9E689D07112EF5F112645B47 /* vorbis.xcodeproj */,
+				FDB1F95B3A0A6AC5784C079B /* zlib.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		5A9E078DB88903778939A5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0253F5468B451FBF2CBA35 /* liblibjson_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE8C52D682139576EBF0B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E18398B5EBE5C29F9E3FF6F5 /* libzlib_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62FD94607E480D8A650CFAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455691B79E7139215EE65FF7 /* libfreetype_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6538AFD9069AEA839D1E0619 /* FindPathExample */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF7FFF526759E967C9DE3F /* README.txt */,
+				B6B475B35D17EA9DD6A9B3F3 /* main.cpp */,
+				97D8F77D65828767CC6915BD /* main.h */,
+				581EEAC54FB7EDAF2070E905 /* Projects */,
+				EA8E290FE2272BF9B2E0274F /* Products */,
+			);
+			name = FindPathExample;
+			sourceTree = "<group>";
+		};
+		69FDA20B7336163579D3E84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6166B04F6BC8DA391E230E8F /* libglew_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701A5179689FE8639F20CFB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB82B5B93AD117E36F31BBF9 /* libogg_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8DAEB286C622DC8D63F4F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19BBBAC4241DE4AED6781904 /* libcurl_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC5D6D1C7EBFD7BED46AD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3700DD6173594ECBB19AEBA1 /* libvorbis_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CD3981CBF3602BF14E0FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED33F171298C62DB67CDFFB1 /* libbase64_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94207F6072D03E0D7DDA636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D002D07258F3FAEAFA6910 /* libbullet2_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E7A1D8ED0DC88212687818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5049436115D05A04F9EA276 /* liblibpng_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33E1AA3DE8893CDC54D80E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0D00E836B46AA8ABDB40 /* libtinyxml2_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D793B97B10B9E02536148FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECEA7DF2B2719496968B61F /* libopenal_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8E290FE2272BF9B2E0274F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12EE248C9787C2F656EA52CC /* FindPathExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB05153EF38AAC282A0B937E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C4C8A8A3132AD2D773CEE8 /* liblua_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFF73DF2DB41B71CC206A432 /* FindPathExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974846CC34C71B36CA1A350C /* Build configuration list for PBXNativeTarget "FindPathExample" */;
+			buildPhases = (
+				3CF6CFADDA75A4176FC8BDED /* Resources */,
+				D6AC5764742B2BCE097E45A4 /* Sources */,
+				BB25EB0D58A4BF77EDF7D94D /* Frameworks */,
+				6CADB89875E62CC27C83FED8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D794467D10BA6D2736151CBD /* PBXTargetDependency */,
+				3332042A6C582AD491B2DA6A /* PBXTargetDependency */,
+				49A6D29FA791CE89784270DF /* PBXTargetDependency */,
+				1DF2795B272AED852DC8BF9B /* PBXTargetDependency */,
+				03625F091EACD8330571C549 /* PBXTargetDependency */,
+				0A626CB4139AE0DE1A38B2F4 /* PBXTargetDependency */,
+				FB02D23658EDCE20299E7076 /* PBXTargetDependency */,
+				544C6C818D72932BB2CD42C1 /* PBXTargetDependency */,
+				9B69DFE793EF76D1CA705E27 /* PBXTargetDependency */,
+				107F1C220904B30C3F859A62 /* PBXTargetDependency */,
+				77F88424B11EAACED6795A64 /* PBXTargetDependency */,
+				A0D970A8D9FF9752FF5A46E8 /* PBXTargetDependency */,
+				63A2E54C7EED5E7665B24B8C /* PBXTargetDependency */,
+				2F2AA17A6850C8248DAB77BA /* PBXTargetDependency */,
+				FF4D8FD6088604000F23D616 /* PBXTargetDependency */,
+			);
+			name = FindPathExample;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FindPathExample;
+			productReference = 12EE248C9787C2F656EA52CC /* FindPathExample */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					BFF73DF2DB41B71CC206A432 = {
+					};
+				};
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "FindPathExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 6538AFD9069AEA839D1E0619 /* FindPathExample */;
+			productRefGroup = C2F5A396E76AE980496B81D6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 92CD3981CBF3602BF14E0FC1 /* Products */;
+					ProjectRef = 70F07D17E3B6D601E4EC3B57 /* base64.xcodeproj */;
+				},
+				{
+					ProductGroup = A94207F6072D03E0D7DDA636 /* Products */;
+					ProjectRef = 1CC6B8B6128E6160BB34CEF6 /* bullet2.xcodeproj */;
+				},
+				{
+					ProductGroup = 7D8DAEB286C622DC8D63F4F2 /* Products */;
+					ProjectRef = 2BD712AA682F8414A67120EA /* curl.xcodeproj */;
+				},
+				{
+					ProductGroup = 62FD94607E480D8A650CFAA0 /* Products */;
+					ProjectRef = 2307233D84E032278748A17D /* freetype.xcodeproj */;
+				},
+				{
+					ProductGroup = 69FDA20B7336163579D3E84B /* Products */;
+					ProjectRef = CC6C4C7508C4BDDF47065AB5 /* glew.xcodeproj */;
+				},
+				{
+					ProductGroup = 5A9E078DB88903778939A5CD /* Products */;
+					ProjectRef = FD65459BF32CEE459BD35BDB /* libjson.xcodeproj */;
+				},
+				{
+					ProductGroup = B3E7A1D8ED0DC88212687818 /* Products */;
+					ProjectRef = 0A9AFF9C7D6158867E96BDDC /* libpng.xcodeproj */;
+				},
+				{
+					ProductGroup = FB05153EF38AAC282A0B937E /* Products */;
+					ProjectRef = EF1C948E8D3A6E3876074ACE /* lua.xcodeproj */;
+				},
+				{
+					ProductGroup = 701A5179689FE8639F20CFB9 /* Products */;
+					ProjectRef = 72161E5F1033F809F900D49F /* ogg.xcodeproj */;
+				},
+				{
+					ProductGroup = D793B97B10B9E02536148FBB /* Products */;
+					ProjectRef = 8AF98E05FDBFE6EFFEF54C45 /* openal.xcodeproj */;
+				},
+				{
+					ProductGroup = 372F7BD47055A27E95B05214 /* Products */;
+					ProjectRef = DE7F8059379A27C3F80F4E99 /* teckel.xcodeproj */;
+				},
+				{
+					ProductGroup = 0074A5FF399ACCA95EF57C3F /* Products */;
+					ProjectRef = 8E8FDD910156367B028B9BD1 /* theora.xcodeproj */;
+				},
+				{
+					ProductGroup = C33E1AA3DE8893CDC54D80E3 /* Products */;
+					ProjectRef = 499E1946AB772830ADDF9786 /* tinyxml2.xcodeproj */;
+				},
+				{
+					ProductGroup = 8EC5D6D1C7EBFD7BED46AD11 /* Products */;
+					ProjectRef = 9E689D07112EF5F112645B47 /* vorbis.xcodeproj */;
+				},
+				{
+					ProductGroup = 5EE8C52D682139576EBF0B6D /* Products */;
+					ProjectRef = FDB1F95B3A0A6AC5784C079B /* zlib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BFF73DF2DB41B71CC206A432 /* FindPathExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0B0253F5468B451FBF2CBA35 /* liblibjson_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibjson_d.a;
+			remoteRef = 1C7950AD37C3C9D71E88B6ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19BBBAC4241DE4AED6781904 /* libcurl_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcurl_d.a;
+			remoteRef = 9D5DDC72CDA4D5DCA7FCEAB2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		33C4C8A8A3132AD2D773CEE8 /* liblua_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblua_d.a;
+			remoteRef = C9C2147ED2FA88A8D9985ABE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36D002D07258F3FAEAFA6910 /* libbullet2_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbullet2_d.a;
+			remoteRef = 3F9D5E365AE7D76041ACC476 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3700DD6173594ECBB19AEBA1 /* libvorbis_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libvorbis_d.a;
+			remoteRef = D59B08713386045B0436A6B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455691B79E7139215EE65FF7 /* libfreetype_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfreetype_d.a;
+			remoteRef = 30CA77E0B564164A74C6A620 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6166B04F6BC8DA391E230E8F /* libglew_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libglew_d.a;
+			remoteRef = 17CC3AEB48133455226B492B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F1C0D00E836B46AA8ABDB40 /* libtinyxml2_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyxml2_d.a;
+			remoteRef = 991BC6831DB564EDDD17F4C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		955DBE6BD1B62FD50FF7CCAB /* libtheora_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtheora_d.a;
+			remoteRef = 7D23BD5FDB0EB949ABBF5B9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB82B5B93AD117E36F31BBF9 /* libogg_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libogg_d.a;
+			remoteRef = E17ED819EAB74C43F1551E59 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5049436115D05A04F9EA276 /* liblibpng_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibpng_d.a;
+			remoteRef = 9EF63458FCE13042CD91D298 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E18398B5EBE5C29F9E3FF6F5 /* libzlib_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzlib_d.a;
+			remoteRef = AA1BC24DDA62BBB7B4BAD08D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E9F4D7D39128B7BDB056F613 /* libteckel_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libteckel_d.a;
+			remoteRef = 8B394DD4E92449BEB9D4EC14 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED33F171298C62DB67CDFFB1 /* libbase64_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase64_d.a;
+			remoteRef = 5A8EC121B879BD0B892A5F61 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EECEA7DF2B2719496968B61F /* libopenal_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopenal_d.a;
+			remoteRef = 3825405B96103C4566C0DE9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF6CFADDA75A4176FC8BDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6AC5764742B2BCE097E45A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFA63278B44DC517209C967 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03625F091EACD8330571C549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = freetype;
+			targetProxy = 48417219CCDB10838C3DA059 /* PBXContainerItemProxy */;
+		};
+		0A626CB4139AE0DE1A38B2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = glew;
+			targetProxy = 2F4335245F8A2E8E39E24364 /* PBXContainerItemProxy */;
+		};
+		107F1C220904B30C3F859A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ogg;
+			targetProxy = F8F5D252022E467C08CC1892 /* PBXContainerItemProxy */;
+		};
+		1DF2795B272AED852DC8BF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = curl;
+			targetProxy = B4D4D6ABE51BD015BF73E4EB /* PBXContainerItemProxy */;
+		};
+		2F2AA17A6850C8248DAB77BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = vorbis;
+			targetProxy = ED1202AA4AFCFE941BADA0EA /* PBXContainerItemProxy */;
+		};
+		3332042A6C582AD491B2DA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = base64;
+			targetProxy = 7205BB5ACFF0B744A0A1599A /* PBXContainerItemProxy */;
+		};
+		49A6D29FA791CE89784270DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = bullet2;
+			targetProxy = 5714586F725ED1995923BEAF /* PBXContainerItemProxy */;
+		};
+		544C6C818D72932BB2CD42C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libpng;
+			targetProxy = B66D2E9114582A7BE508CCD1 /* PBXContainerItemProxy */;
+		};
+		63A2E54C7EED5E7665B24B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyxml2;
+			targetProxy = B092C0BC352C5F26F48EEEFC /* PBXContainerItemProxy */;
+		};
+		77F88424B11EAACED6795A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openal;
+			targetProxy = 4F9C3A94AD87367E7E37D8D4 /* PBXContainerItemProxy */;
+		};
+		9B69DFE793EF76D1CA705E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lua;
+			targetProxy = E1390EB7EA7182E1F10F54F7 /* PBXContainerItemProxy */;
+		};
+		A0D970A8D9FF9752FF5A46E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = theora;
+			targetProxy = 949AB798F285B382C33655D8 /* PBXContainerItemProxy */;
+		};
+		D794467D10BA6D2736151CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = teckel;
+			targetProxy = A2B0480D009B43F7D14BE64D /* PBXContainerItemProxy */;
+		};
+		FB02D23658EDCE20299E7076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libjson;
+			targetProxy = 33F04AE64F3AC41035FFB126 /* PBXContainerItemProxy */;
+		};
+		FF4D8FD6088604000F23D616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zlib;
+			targetProxy = C192BC86F1D9B5F0CC31CAC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FDBBF81CCB27A2C87FB238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../src,
+					../../../deps/teckel/include,
+					../../../deps/teckel/deps/include,
+					../../../deps/bullet2/src,
+					../../../deps/openal/include,
+					../../../deps/vorbis/include,
+					../../../deps/ogg/include,
+					../../../deps/libpng,
+					../../../deps/lua/src,
+					../../../deps/glew/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PFE_FILE_C_DIALECTS = "c++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					_WINDOWS,
+					AL_LIBTYPE_STATIC,
+					AL_ALEXT_PROTOTYPES,
+					OS_APPLETV,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = "\"$(HOME)/Applications\"";
+				OBJROOT = obj/Debug;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_NAME = FindPathExample_d;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../build/xcode4/tvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		9DBA5B72DE91599C4992E1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../src,
+					../../../deps/teckel/include,
+					../../../deps/teckel/deps/include,
+					../../../deps/bullet2/src,
+					../../../deps/openal/include,
+					../../../deps/vorbis/include,
+					../../../deps/ogg/include,
+					../../../deps/libpng,
+					../../../deps/lua/src,
+					../../../deps/glew/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PFE_FILE_C_DIALECTS = "c++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"_SECURE_SCL=0",
+					"_SECURE_SCL_THROWS=0",
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					_WINDOWS,
+					AL_LIBTYPE_STATIC,
+					AL_ALEXT_PROTOTYPES,
+					OS_APPLETV,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = "\"$(HOME)/Applications\"";
+				OBJROOT = obj/Release;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_NAME = FindPathExample;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../build/xcode4/tvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		BAFAE563B3807C4DEA0163A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../src,
+					../../../deps/teckel/include,
+					../../../deps/teckel/deps/include,
+					../../../deps/bullet2/src,
+					../../../deps/openal/include,
+					../../../deps/vorbis/include,
+					../../../deps/ogg/include,
+					../../../deps/libpng,
+					../../../deps/lua/src,
+					../../../deps/glew/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PFE_FILE_C_DIALECTS = "c++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					_WINDOWS,
+					AL_LIBTYPE_STATIC,
+					AL_ALEXT_PROTOTYPES,
+					OS_APPLETV,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = "\"$(HOME)/Applications\"";
+				OBJROOT = obj/Debug;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../build/xcode4/tvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		D3AD5A1D03F45387DE4C685D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../src,
+					../../../deps/teckel/include,
+					../../../deps/teckel/deps/include,
+					../../../deps/bullet2/src,
+					../../../deps/openal/include,
+					../../../deps/vorbis/include,
+					../../../deps/ogg/include,
+					../../../deps/libpng,
+					../../../deps/lua/src,
+					../../../deps/glew/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PFE_FILE_C_DIALECTS = "c++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"_SECURE_SCL=0",
+					"_SECURE_SCL_THROWS=0",
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					_WINDOWS,
+					AL_LIBTYPE_STATIC,
+					AL_ALEXT_PROTOTYPES,
+					OS_APPLETV,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = "\"$(HOME)/Applications\"";
+				OBJROOT = obj/Release;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../build/xcode4/tvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "FindPathExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFAE563B3807C4DEA0163A3 /* Debug */,
+				D3AD5A1D03F45387DE4C685D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		974846CC34C71B36CA1A350C /* Build configuration list for PBXNativeTarget "FindPathExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FDBBF81CCB27A2C87FB238 /* Debug */,
+				9DBA5B72DE91599C4992E1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

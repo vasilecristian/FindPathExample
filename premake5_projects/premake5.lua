@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
--- sample1
+-- FindPathExample
 -------------------------------------------------------------------------------
 local my_path = path.getabsolute(_SCRIPT_DIR)
-local sample1_checkout_folder = my_path .. "/../"
-local extern_path = sample1_checkout_folder .. "/deps/"
+local FindPathExample_checkout_folder = my_path .. "/../"
+local extern_path = FindPathExample_checkout_folder .. "/deps/"
 
 depends_on = depends_on or {}
 -------------------------------------------------------------------------------
@@ -19,8 +19,8 @@ if pre_build then
 	pre_build()
 end
 
-solution "sample1"
-	startproject ("sample1")
+solution "FindPathExample"
+	startproject ("FindPathExample")
 	addCommonConfig()
 
 	-------------------------------------------------------------------------------
@@ -145,21 +145,21 @@ solution "sample1"
 -------------------------------------------------------------------------------
 -- lib project
 -------------------------------------------------------------------------------
-project "sample1"
+project "FindPathExample"
 	uuid "4491E20C-B0A5-0ABE-7927-AE1DE5FA06E0"
 	
 	
 	kind "WindowedApp"
 	
 	
-	targetname( "sample1" )
-	targetdir ( sample1_checkout_folder .. "/build/" .. GetPathFromPlatform())
+	targetname( "FindPathExample" )
+	targetdir ( FindPathExample_checkout_folder .. "/build/" .. GetPathFromPlatform())
 -------------------------------------------------------------------------------
 -- project files
 -------------------------------------------------------------------------------	
 	files 
 	{ 
-		sample1_checkout_folder .. "/src/**",	
+		FindPathExample_checkout_folder .. "/src/**",	
 	}
 	
 -------------------------------------------------------------------------------
@@ -167,7 +167,7 @@ project "sample1"
 -------------------------------------------------------------------------------		
 	includedirs
 	{
-		sample1_checkout_folder .. "/src",
+		FindPathExample_checkout_folder .. "/src",
 		
 		extern_path .. "/teckel/include",
 		extern_path .. "/teckel/deps/include",
