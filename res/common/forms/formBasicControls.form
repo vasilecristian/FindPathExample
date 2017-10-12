@@ -1,13 +1,13 @@
 form basicControls
 {
     layout = LAYOUT_ABSOLUTE
-    size = 600, 600
+    size = 640, 480
     batchingEnabled = false
 
 	label title
 	{
 		position = 185, 10
-		text = Title Label
+		text = Find Path Example
         fontSize = 32
 	}
 		
