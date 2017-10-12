@@ -53,6 +53,12 @@
 		location = "group:../../../deps/openssl/premake5_projects/xcode4/ios/crypto.xcodeproj">
 	</FileRef>
 	<FileRef
+		location = "group:../../../deps/FindPathEngine/prj/xcode4/ios/FindPathEngine.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:../../../deps/ThreadPool/prj/xcode4/ios/ThreadPool.xcodeproj">
+	</FileRef>
+	<FileRef
 		location = "group:FindPathExample.xcodeproj">
 	</FileRef>
 </Workspace>

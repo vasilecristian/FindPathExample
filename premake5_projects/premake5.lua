@@ -141,6 +141,20 @@ solution "FindPathExample"
 	external "crypto"
 		location  (extern_path .. "/openssl/premake5_projects/" .. GetPathFromPlatform())
 		kind "StaticLib"
+
+	-------------------------------------------------------------------------------
+	-- FindPathEngine
+	-------------------------------------------------------------------------------
+	external "FindPathEngine"
+		location  (extern_path .. "/FindPathEngine/prj/" .. GetPathFromPlatform())
+		kind "StaticLib"
+
+	-------------------------------------------------------------------------------
+	-- ThreadPool
+	-------------------------------------------------------------------------------
+	external "ThreadPool"
+		location  (extern_path .. "/ThreadPool/prj/" .. GetPathFromPlatform())
+		kind "StaticLib"
 		
 -------------------------------------------------------------------------------
 -- lib project

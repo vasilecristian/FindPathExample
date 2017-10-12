@@ -151,3 +151,21 @@ if not exist %externalFolder%\%folder% (
 ) else (
 	svn up %externalFolder%\%folder%
 )
+
+
+set folder=FindPathEngine
+set address=https://github.com/vasilecristian/FindPathEngine.git/trunk
+if not exist %externalFolder%\%folder% (
+	svn co %address% %externalFolder%\%folder%
+) else (
+	svn up %externalFolder%\%folder%
+)
+
+
+set folder=ThreadPool
+set address=https://github.com/vasilecristian/ThreadPool.git/trunk
+if not exist %externalFolder%\%folder% (
+	svn co %address% %externalFolder%\%folder%
+) else (
+	svn up %externalFolder%\%folder%
+)

@@ -120,3 +120,5 @@
 *.tlog
 *.lastbuildstate
 *.obj
+*.opendb
+*.sdf
