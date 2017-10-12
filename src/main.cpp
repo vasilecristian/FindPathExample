@@ -11,19 +11,28 @@ FindPathExample::FindPathExample()
 void FindPathExample::Initialize()
 {
     // Load app scene from file
-    m_scene = Scene::Load("res/demo.scene");
+	m_scene = Scene::Load("res/demo.scene");
+
+	//Camera* camera = Camera::createPerspective(45.0f, (float)GetWidth() / (float)GetHeight(), 0.25f, 100.0f);
+	//std::shared_ptr<Node> cameraNode = m_scene->addNode("Camera");
+	//cameraNode->setCamera(camera);
+	//m_scene->setActiveCamera(camera);
+	//SAFE_RELEASE(camera);
 
     // Get the box model and initialize its material parameter values and bindings
-	std::shared_ptr<Node> boxNode = m_scene->FindNode("box");
-    std::shared_ptr<Model> boxModel = std::dynamic_pointer_cast<Model>(boxNode->GetDrawable());
-    std::shared_ptr<Material> boxMaterial = boxModel->getMaterial();
+	//std::shared_ptr<Node> boxNode = m_scene->FindNode("box");
+    //std::shared_ptr<Model> boxModel = std::dynamic_pointer_cast<Model>(boxNode->GetDrawable());
+    //std::shared_ptr<Material> boxMaterial = boxModel->getMaterial();
 
     // Set the aspect ratio for the scene's camera to match the current resolution
 	m_scene->GetActiveCamera()->setAspectRatio(GetAspectRatio());
 
 
     m_formSelect = Form::create("res/common/forms/formBasicControls.form");
+	m_formSelect->setEnabled(true);
     m_formSelect->setFocus();
+	//std::shared_ptr<Node> formNodeParent = m_scene->addNode("FormParent");
+	//formNodeParent->setDrawable(m_formSelect);
    
 
 }
