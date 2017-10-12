@@ -192,6 +192,12 @@
     <ProjectReference Include="..\..\deps\zlib\premake5_projects\vs2015\zlib.vcxproj">
       <Project>{16CFA17C-0206-A30D-ABF2-881097081F0F}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\deps\FindPathEngine\prj\vs2015\FindPathEngine.vcxproj">
+      <Project>{E9A19F51-D56F-9357-BE03-047EAA706FBC}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\deps\ThreadPool\prj\vs2015\ThreadPool.vcxproj">
+      <Project>{77E74159-639F-83A6-CCA6-5C02B87D1E97}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

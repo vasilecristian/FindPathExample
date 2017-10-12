@@ -8,14 +8,14 @@ using namespace teckel;
 /**
  * Main app class.
  */
-class Sample1: public App
+class FindPathExample: public App
 {
 public:
 
     /**
      * Constructor.
      */
-    Sample1();
+    FindPathExample();
 
     /**
      * @see App::keyEvent
@@ -27,14 +27,14 @@ public:
      */
     void TouchEvent(Touch::TouchEvent evt, int x, int y, unsigned int contactIndex) override;
 
-    bool mouseEvent(teckel::Mouse::MouseEvent evt, int x, int y, int wheelDelta) override;
-    void resizeEvent(unsigned int width, unsigned int height) override;
-    void gestureSwipeEvent(int x, int y, int direction) override;
-    void gesturePinchEvent(int x, int y, float scale) override;
-    void gestureLongTapEvent(int x, int y, float duration) override;
-    void gestureTapEvent(int x, int y) override;
-    void gestureDragEvent(int x, int y) override;
-    void gestureDropEvent(int x, int y) override;
+    bool MouseEvent(teckel::Mouse::MouseEvent evt, int x, int y, int wheelDelta) override;
+    void ResizeEvent(unsigned int width, unsigned int height) override;
+    void GestureSwipeEvent(int x, int y, int direction) override;
+    void GesturePinchEvent(int x, int y, float scale) override;
+    void GestureLongTapEvent(int x, int y, float duration) override;
+    void GestureTapEvent(int x, int y) override;
+    void GestureDragEvent(int x, int y) override;
+    void GestureDropEvent(int x, int y) override;
 
 protected:
 

@@ -221,6 +221,8 @@ project "FindPathExample"
 		"tinyxml2",
 		"vorbis",
 		"zlib",
+		"FindPathEngine",
+		"ThreadPool"
 	}		
 			
     

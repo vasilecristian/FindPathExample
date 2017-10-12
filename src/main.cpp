@@ -1,14 +1,14 @@
 #include "main.h"
 
 // Declare our app instance
-Sample1 app;
+FindPathExample app;
 
-Sample1::Sample1()
+FindPathExample::FindPathExample()
     : m_scene(NULL), m_wireframe(false)
 {
 }
 
-void Sample1::Initialize()
+void FindPathExample::Initialize()
 {
     // Load app scene from file
     m_scene = Scene::Load("res/demo.scene");
@@ -28,12 +28,12 @@ void Sample1::Initialize()
 
 }
 
-void Sample1::Finalize()
+void FindPathExample::Finalize()
 {
 	m_scene = nullptr;
 }
 
-void Sample1::Update(float elapsedTime)
+void FindPathExample::Update(float elapsedTime)
 {
     // Rotate model
 	m_scene->FindNode("box")->rotateY(MATH_DEG_TO_RAD((float)elapsedTime / 1000.0f * 180.0f));
@@ -41,18 +41,18 @@ void Sample1::Update(float elapsedTime)
     m_formSelect->update(elapsedTime);
 }
 
-void Sample1::Render(float elapsedTime)
+void FindPathExample::Render(float elapsedTime)
 {
     // Clear the color and depth buffers
     Clear(CLEAR_COLOR_DEPTH, Vector4::zero(), 1.0f, 0);
 
     // Visit all the nodes in the scene for drawing
-	m_scene->Visit(this, &Sample1::DrawScene);
+	m_scene->Visit(this, &FindPathExample::DrawScene);
 
     m_formSelect->draw();
 }
 
-bool Sample1::DrawScene(std::shared_ptr<Node> node)
+bool FindPathExample::DrawScene(std::shared_ptr<Node> node)
 {
     // If the node visited contains a drawable object, draw it
     std::shared_ptr<Drawable> drawable = node->GetDrawable(); 
@@ -62,7 +62,7 @@ bool Sample1::DrawScene(std::shared_ptr<Node> node)
     return true;
 }
 
-void Sample1::KeyEvent(Keyboard::KeyEvent evt, int key)
+void FindPathExample::KeyEvent(Keyboard::KeyEvent evt, int key)
 {
     if (evt == Keyboard::KEY_PRESS)
     {
@@ -75,7 +75,7 @@ void Sample1::KeyEvent(Keyboard::KeyEvent evt, int key)
     }
 }
 
-void Sample1::TouchEvent(Touch::TouchEvent evt, int x, int y, unsigned int contactIndex)
+void FindPathExample::TouchEvent(Touch::TouchEvent evt, int x, int y, unsigned int contactIndex)
 {
     switch (evt)
     {
@@ -89,21 +89,21 @@ void Sample1::TouchEvent(Touch::TouchEvent evt, int x, int y, unsigned int conta
     };
 }
 
-bool Sample1::mouseEvent(teckel::Mouse::MouseEvent evt, int x, int y, int wheelDelta)
+bool FindPathExample::MouseEvent(teckel::Mouse::MouseEvent evt, int x, int y, int wheelDelta)
 {
     return false;
 }
-void Sample1::resizeEvent(unsigned int width, unsigned int height)
+void FindPathExample::ResizeEvent(unsigned int width, unsigned int height)
 {}
-void Sample1::gestureSwipeEvent(int x, int y, int direction)
+void FindPathExample::GestureSwipeEvent(int x, int y, int direction)
 {}
-void Sample1::gesturePinchEvent(int x, int y, float scale)
+void FindPathExample::GesturePinchEvent(int x, int y, float scale)
 {}
-void Sample1::gestureLongTapEvent(int x, int y, float duration)
+void FindPathExample::GestureLongTapEvent(int x, int y, float duration)
 {}
-void Sample1::gestureTapEvent(int x, int y)
+void FindPathExample::GestureTapEvent(int x, int y)
 {}
-void Sample1::gestureDragEvent(int x, int y)
+void FindPathExample::GestureDragEvent(int x, int y)
 {}
-void Sample1::gestureDropEvent(int x, int y)
+void FindPathExample::GestureDropEvent(int x, int y)
 {}

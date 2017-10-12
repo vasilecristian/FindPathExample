@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04AA10C3FA71B96DA3182703 /* libtheora_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 955DBE6BD1B62FD50FF7CCAB /* libtheora_d.a */; };
 		0BE635085CCA157247C7A348 /* libbullet2_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D002D07258F3FAEAFA6910 /* libbullet2_d.a */; };
+		0DF6EB39D9886163016A7179 /* libThreadPool_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4487201362180EB3889F041 /* libThreadPool_d.a */; };
 		38151BF92DDCC4A3D6833239 /* libvorbis_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700DD6173594ECBB19AEBA1 /* libvorbis_d.a */; };
 		4BF36B51884BDCBBC68D7991 /* libogg_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB82B5B93AD117E36F31BBF9 /* libogg_d.a */; };
 		665C427CA1E533A61A86A8BC /* libcurl_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BBBAC4241DE4AED6781904 /* libcurl_d.a */; };
@@ -21,6 +22,7 @@
 		AD37A1D8749E40827B137818 /* libtinyxml2_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1C0D00E836B46AA8ABDB40 /* libtinyxml2_d.a */; };
 		AF3EE5B7A5068E614DACFBF7 /* libopenal_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EECEA7DF2B2719496968B61F /* libopenal_d.a */; };
 		C0AC6C27FC355D5174D6D267 /* libglew_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6166B04F6BC8DA391E230E8F /* libglew_d.a */; };
+		CC5EB0CF4D68B5F91B0D970F /* libFindPathEngine_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5871F579443DD4151B7FD97 /* libFindPathEngine_d.a */; };
 		D4AF3609CA76DEB3731D4C49 /* libbase64_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED33F171298C62DB67CDFFB1 /* libbase64_d.a */; };
 		DB1FA7CB31C70EF52F67CE0B /* libteckel_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F4D7D39128B7BDB056F613 /* libteckel_d.a */; };
 /* End PBXBuildFile section */
@@ -89,6 +91,13 @@
 			remoteGlobalIDString = E151E768D48C345201DE25A8;
 			remoteInfo = openal;
 		};
+		501C08CE6196E9B883DCC70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E529210791D037711EA04F47 /* ThreadPool.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A36ABF1514CBAE3F3097E555;
+			remoteInfo = ThreadPool;
+		};
 		5714586F725ED1995923BEAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1CC6B8B6128E6160BB34CEF6 /* bullet2.xcodeproj */;
@@ -102,6 +111,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 2E889D48890C8772609CA388;
 			remoteInfo = base64;
+		};
+		67930307790DE3F19B53C147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E529210791D037711EA04F47 /* ThreadPool.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC962B5B2CA0DD45A997899B;
+			remoteInfo = ThreadPool;
 		};
 		7205BB5ACFF0B744A0A1599A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -222,6 +238,13 @@
 			remoteGlobalIDString = 9A00DF40718EE9AA21E88D80;
 			remoteInfo = ogg;
 		};
+		E17F168005F45C6A67F4F4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3DD2DD418FD84769AC611D /* FindPathEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 906C880799A4FC31A042CE47;
+			remoteInfo = FindPathEngine;
+		};
 		ED1202AA4AFCFE941BADA0EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9E689D07112EF5F112645B47 /* vorbis.xcodeproj */;
@@ -236,6 +259,13 @@
 			remoteGlobalIDString = 9583722600E4D7504C0E5866;
 			remoteInfo = ogg;
 		};
+		F8F610B91D6B56A37F6BEEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3DD2DD418FD84769AC611D /* FindPathEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57299E0D4FAF34F786301C4D;
+			remoteInfo = FindPathEngine;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -245,6 +275,7 @@
 		2307233D84E032278748A17D /* libfreetype_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "freetype.xcodeproj"; path = ../../../deps/freetype/prj/xcode4/tvos/freetype.xcodeproj; sourceTree = SOURCE_ROOT; };
 		2BD712AA682F8414A67120EA /* libcurl_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "curl.xcodeproj"; path = ../../../deps/curl/premake5_projects/xcode4/tvos/curl.xcodeproj; sourceTree = SOURCE_ROOT; };
 		499E1946AB772830ADDF9786 /* libtinyxml2_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "tinyxml2.xcodeproj"; path = ../../../deps/tinyxml2/prj/xcode4/tvos/tinyxml2.xcodeproj; sourceTree = SOURCE_ROOT; };
+		5A3DD2DD418FD84769AC611D /* libFindPathEngine_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FindPathEngine.xcodeproj"; path = ../../../deps/FindPathEngine/prj/xcode4/tvos/FindPathEngine.xcodeproj; sourceTree = SOURCE_ROOT; };
 		70F07D17E3B6D601E4EC3B57 /* libbase64_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "base64.xcodeproj"; path = ../../../deps/base64/premake5_projects/xcode4/tvos/base64.xcodeproj; sourceTree = SOURCE_ROOT; };
 		72161E5F1033F809F900D49F /* libogg_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ogg.xcodeproj"; path = ../../../deps/ogg/premake5_projects/xcode4/tvos/ogg.xcodeproj; sourceTree = SOURCE_ROOT; };
 		8AF98E05FDBFE6EFFEF54C45 /* libopenal_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "openal.xcodeproj"; path = ../../../deps/openal/premake5_projects/xcode4/tvos/openal.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -254,6 +285,7 @@
 		B6B475B35D17EA9DD6A9B3F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../src/main.cpp; sourceTree = "<group>"; };
 		CC6C4C7508C4BDDF47065AB5 /* libglew_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "glew.xcodeproj"; path = ../../../deps/glew/premake5_projects/xcode4/tvos/glew.xcodeproj; sourceTree = SOURCE_ROOT; };
 		DE7F8059379A27C3F80F4E99 /* libteckel_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "teckel.xcodeproj"; path = ../../../deps/teckel/prj/xcode4/tvos/teckel.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E529210791D037711EA04F47 /* libThreadPool_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ThreadPool.xcodeproj"; path = ../../../deps/ThreadPool/prj/xcode4/tvos/ThreadPool.xcodeproj; sourceTree = SOURCE_ROOT; };
 		EEDF7FFF526759E967C9DE3F /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = ../../../src/README.txt; sourceTree = "<group>"; };
 		EF1C948E8D3A6E3876074ACE /* liblua_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lua.xcodeproj"; path = ../../../deps/lua/premake5_projects/xcode4/tvos/lua.xcodeproj; sourceTree = SOURCE_ROOT; };
 		FD65459BF32CEE459BD35BDB /* liblibjson_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "libjson.xcodeproj"; path = ../../../deps/libjson/premake5_projects/xcode4/tvos/libjson.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -280,6 +312,8 @@
 				AD37A1D8749E40827B137818 /* libtinyxml2_d.a in Frameworks */,
 				38151BF92DDCC4A3D6833239 /* libvorbis_d.a in Frameworks */,
 				9260BACDCDE9ABF7468B210D /* libzlib_d.a in Frameworks */,
+				CC5EB0CF4D68B5F91B0D970F /* libFindPathEngine_d.a in Frameworks */,
+				0DF6EB39D9886163016A7179 /* libThreadPool_d.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +324,14 @@
 			isa = PBXGroup;
 			children = (
 				955DBE6BD1B62FD50FF7CCAB /* libtheora_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A48DF00FCD80FAA2E5BF540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5871F579443DD4151B7FD97 /* libFindPathEngine_d.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +362,8 @@
 				499E1946AB772830ADDF9786 /* tinyxml2.xcodeproj */,
 				9E689D07112EF5F112645B47 /* vorbis.xcodeproj */,
 				FDB1F95B3A0A6AC5784C079B /* zlib.xcodeproj */,
+				5A3DD2DD418FD84769AC611D /* FindPathEngine.xcodeproj */,
+				E529210791D037711EA04F47 /* ThreadPool.xcodeproj */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -424,6 +468,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C8C9BF8EE0972B388C4BB5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4487201362180EB3889F041 /* libThreadPool_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D793B97B10B9E02536148FBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -481,6 +533,8 @@
 				63A2E54C7EED5E7665B24B8C /* PBXTargetDependency */,
 				2F2AA17A6850C8248DAB77BA /* PBXTargetDependency */,
 				FF4D8FD6088604000F23D616 /* PBXTargetDependency */,
+				CAADA9A99D3CDA53CEC0BFE9 /* PBXTargetDependency */,
+				692E8A3780FBF5E12CB08077 /* PBXTargetDependency */,
 			);
 			name = FindPathExample;
 			productInstallPath = "$(HOME)/Applications";
@@ -506,6 +560,14 @@
 			productRefGroup = C2F5A396E76AE980496B81D6 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 2A48DF00FCD80FAA2E5BF540 /* Products */;
+					ProjectRef = 5A3DD2DD418FD84769AC611D /* FindPathEngine.xcodeproj */;
+				},
+				{
+					ProductGroup = C8C9BF8EE0972B388C4BB5CE /* Products */;
+					ProjectRef = E529210791D037711EA04F47 /* ThreadPool.xcodeproj */;
+				},
 				{
 					ProductGroup = 92CD3981CBF3602BF14E0FC1 /* Products */;
 					ProjectRef = 70F07D17E3B6D601E4EC3B57 /* base64.xcodeproj */;
@@ -645,6 +707,13 @@
 			remoteRef = E17ED819EAB74C43F1551E59 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D4487201362180EB3889F041 /* libThreadPool_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThreadPool_d.a;
+			remoteRef = 501C08CE6196E9B883DCC70E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		D5049436115D05A04F9EA276 /* liblibpng_d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -657,6 +726,13 @@
 			fileType = archive.ar;
 			path = libzlib_d.a;
 			remoteRef = AA1BC24DDA62BBB7B4BAD08D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E5871F579443DD4151B7FD97 /* libFindPathEngine_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFindPathEngine_d.a;
+			remoteRef = E17F168005F45C6A67F4F4C0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		E9F4D7D39128B7BDB056F613 /* libteckel_d.a */ = {
@@ -749,6 +825,11 @@
 			name = tinyxml2;
 			targetProxy = B092C0BC352C5F26F48EEEFC /* PBXContainerItemProxy */;
 		};
+		692E8A3780FBF5E12CB08077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThreadPool;
+			targetProxy = 67930307790DE3F19B53C147 /* PBXContainerItemProxy */;
+		};
 		77F88424B11EAACED6795A64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = openal;
@@ -763,6 +844,11 @@
 			isa = PBXTargetDependency;
 			name = theora;
 			targetProxy = 949AB798F285B382C33655D8 /* PBXContainerItemProxy */;
+		};
+		CAADA9A99D3CDA53CEC0BFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FindPathEngine;
+			targetProxy = F8F610B91D6B56A37F6BEEF9 /* PBXContainerItemProxy */;
 		};
 		D794467D10BA6D2736151CBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
